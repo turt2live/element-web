@@ -23,3 +23,6 @@ electron/pub
 .vscode
 .vscode/
 .env
+# Auto-generated file
+/src/modules.ts
+/build_config.yaml
