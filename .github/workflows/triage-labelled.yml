@@ -36,7 +36,7 @@ jobs:
       - uses: matrix-org/move-labeled-or-milestoned-issue@5791c28262b0c2880282291ddf909030e9fd4c89
         with:
           action-token: "${{ secrets.ELEMENT_BOT_TOKEN }}"
-          project-url: "https://github.com/vector-im/element-web/projects/27"
+          project-url: "https://github.com/turt2live/element-web/projects/1"
           column-name: "Need info"
           label-name: "X-Needs-Info"
           archive-behaviour: "ignore"
