@@ -33,12 +33,13 @@ jobs:
     name: X-Needs-Info issues to Need info column on triage board
     runs-on: ubuntu-latest
     steps:
-      - uses: konradpabjan/move-labeled-or-milestoned-issue@219d384e03fa4b6460cd24f9f37d19eb033a4338
+      - uses: matrix-org/move-labeled-or-milestoned-issue@0b6915ac1eb493fcfd3ab86ffd60c3e1980179fb
         with:
           action-token: "${{ secrets.ELEMENT_BOT_TOKEN }}"
           project-url: "https://github.com/vector-im/element-web/projects/27"
           column-name: "Need info"
           label-name: "X-Needs-Info"
+          archive-behaviour: "ignore"
 
   add_priority_design_issues_to_project:
     name: P1 X-Needs-Design to Design project board
